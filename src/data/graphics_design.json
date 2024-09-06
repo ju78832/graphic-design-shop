@@ -1,0 +1,104 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Modern Elegance",
+      "slug": "guitar-fundamentals",
+      "description": "Bold colors and sleek lines converge to create a modern masterpiece, showcasing cutting-edge design trends.",
+      "price": 99.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "/graphics/Graphics1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Storytelling in Pixels",
+      "slug": "piano-for-beginners",
+      "description": "A harmonious blend of typography and imagery that tells a story in every pixel, perfect for captivating audiences.",
+      "price": 109.99,
+      "instructor": "Jane Smith",
+      "isFeatured": false,
+      "image": "/graphics/Graphics2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Sleek Simplicity",
+      "slug": "advanced-vocal-techniques",
+      "description": "Elegant simplicity meets powerful impact in this design, emphasizing clean aesthetics and clarity.",
+      "price": 119.99,
+      "instructor": "Emily Johnson",
+      "isFeatured": true,
+      "image": "/graphics/Graphics3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Sleek Simplicity",
+      "slug": "drumming-mastery",
+      "description": "Dynamic composition and vibrant hues come together to deliver an eye-catching visual experience.",
+      "price": 129.99,
+      "instructor": "Mike Brown",
+      "isFeatured": false,
+      "image": "/graphics/Graphics4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Timeless Sophistication",
+      "slug": "jazz-improvisation",
+      "description": "Sophisticated and timeless, this design uses subtle gradients and refined details to convey professionalism.",
+      "price": 139.99,
+      "instructor": "Chris Davis",
+      "isFeatured": false,
+      "image": "/graphics/Graphics5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Whimsical Joy:",
+      "slug": "music-production-fundamentals",
+      "description": "Playful and energetic, featuring whimsical elements and bright colors that spark joy and creativity",
+      "price": 149.99,
+      "instructor": "Alex Wilson",
+      "isFeatured": true,
+      "image": "/graphics/Graphics6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Minimalist Mastery",
+      "slug": "songwriting-essentials",
+      "description": "Minimalist elegance shines through with a focus on space and balance, delivering a refined visual appeal",
+      "price": 159.99,
+      "instructor": "Samantha Miller",
+      "isFeatured": false,
+      "image": "/graphics/Graphics7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Abstract Fusion",
+      "slug": "electronic-music-production",
+      "description": "A striking fusion of abstract shapes and textures that invites viewers to delve deeper into its layered meaning.",
+      "price": 169.99,
+      "instructor": "Luke Harris",
+      "isFeatured": true,
+      "image": "/graphics/Graphics8.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Classic Contemporary",
+      "slug": "classical-music-history",
+      "description": "Classic meets contemporary in this design, merging traditional motifs with modern design techniques for a unique look.",
+      "price": 179.99,
+      "instructor": "Grace Lee",
+      "isFeatured": false,
+      "image": "/graphics/Graphics9.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Intricate Patterns",
+      "slug": "blues-guitar-techniques",
+      "description": "Intricate patterns and bold contrasts create a visually engaging design that draws viewers in and holds their attention.",
+      "price": 189.99,
+      "instructor": "Ethan Moore",
+      "isFeatured": true,
+      "image": "/graphics/Graphics10.jpg"
+    }
+  ]
+}
