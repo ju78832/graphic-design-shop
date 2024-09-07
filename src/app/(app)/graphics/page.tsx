@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function Graphics() {
   return (
-    <div className="min-h-screen bg-black pt-32 py-12">
+    <div className="min-h-screen bg-black pt-40 py-12">
       <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">
         All Designs {course.courses.length}
       </h1>
