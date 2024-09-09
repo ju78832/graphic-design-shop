@@ -5,6 +5,7 @@ import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
 import axios from "axios";
+import toast from "react-hot-toast";
 
 export default function Contact() {
   const [user, setUser] = useState({
@@ -20,7 +21,9 @@ export default function Contact() {
     console.log("Form submitted", user);
     try {
       setLoading(true);
+      toast.loading("Message Sending", { id: "message" });
       const res = await axios.post("/api/user/mail", user);
+      toast.success("Message Sent Successfully", { id: "message" });
       setUser({ ...user, name: "", email: "", number: "", address: "" });
     } catch (error) {
       console.log("Unable to sent mail", error);
